@@ -10,7 +10,7 @@ const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     let [open, setOpen] = useState(false);
     return (
-        <nav className="shadow-lg font-mont z-40 w-full font-medium sticky top-0 items-center justify-around duration-700 transition-all ease-in justify-items-center  ">
+        <nav className="shadow-lg font-mont z-40 w-full font-medium sticky bg-opacity-[0.45] bg-[#FFEEFF] backdrop-blur-xl drop-shadow-lg top-0 items-center justify-around duration-700 transition-all ease-in justify-items-center  ">
             <div className="md:flex items-center place-items-center justify-between py-3 md:px-10 px-7">
                 <div className="h-10 sm:h-12 cursor-pointer flex space-x-2 md:space-x-8 items-center text-gray-800">
                     <p className=" font-bold text-2xl mr-2">myra</p>

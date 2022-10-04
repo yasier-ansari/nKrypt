@@ -5,7 +5,7 @@ module.exports = {
         extend: {},
         fontFamily: {
             mont: ['Montserrat', 'sans-serif'],
-            jak: ['Plus Jakarta Sans', 'sans-serif'],
+            jak: ['Outfit', 'sans-serif'],
             pop: ['Poppins', 'sans-serif'],
             krona: ['Krona One', 'sans-serif'],
         },
