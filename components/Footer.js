@@ -12,7 +12,7 @@ const Footer = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit maxime soluta
                         mollitia rerum, magnam rem tempor{' '}
                     </p>
-                    <div class="flex space-x-8">
+                    <div className="flex space-x-8">
                         <AiFillInstagram className="h-6 w-6" />
                         <AiFillFacebook className="h-6 w-6" />
                         <AiOutlineTwitter className="h-6 w-6" />
