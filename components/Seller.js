@@ -37,7 +37,7 @@ const Seller = () => {
                 <div className="relative flex flex-col bg-white rounded-[2.5rem]">
                     <div className="basis-2">
                         <Image
-                            src="/static/seller-1.png"
+                            src="/static/seller-2.png"
                             layout="responsive"
                             className="rounded-t-[2.5rem] "
                             width={300}
@@ -46,7 +46,7 @@ const Seller = () => {
                     </div>
                     <div className="w-16 h-16 absolute top-[12rem] left-[8rem] border-2 rounded-full border-black">
                         <Image
-                            src="/static/user-1.png"
+                            src="/static/user-2.png"
                             layout="responsive"
                             className="rounded-full"
                             width={50}
@@ -66,7 +66,7 @@ const Seller = () => {
                 <div className="relative flex flex-col bg-white rounded-[2.5rem]">
                     <div className="basis-2">
                         <Image
-                            src="/static/seller-1.png"
+                            src="/static/seller-3.png"
                             layout="responsive"
                             className="rounded-t-[2.5rem] "
                             width={300}
@@ -75,7 +75,7 @@ const Seller = () => {
                     </div>
                     <div className="w-16 h-16 absolute top-[12rem] left-[8rem] border-2 rounded-full border-black">
                         <Image
-                            src="/static/user-1.png"
+                            src="/static/user-2.png"
                             layout="responsive"
                             className="rounded-full"
                             width={50}
@@ -95,7 +95,7 @@ const Seller = () => {
                 <div className="relative flex flex-col bg-white rounded-[2.5rem]">
                     <div className="basis-2">
                         <Image
-                            src="/static/seller-1.png"
+                            src="/static/seller-4.png"
                             layout="responsive"
                             className="rounded-t-[2.5rem] "
                             width={300}
@@ -104,7 +104,7 @@ const Seller = () => {
                     </div>
                     <div className="w-16 h-16 absolute top-[12rem] left-[8rem] border-2 rounded-full border-black">
                         <Image
-                            src="/static/user-1.png"
+                            src="/static/user-3.png"
                             layout="responsive"
                             className="rounded-full"
                             width={50}
@@ -124,7 +124,7 @@ const Seller = () => {
                 <div className="relative flex flex-col bg-white rounded-[2.5rem]">
                     <div className="basis-2">
                         <Image
-                            src="/static/seller-1.png"
+                            src="/static/seller-5.png"
                             layout="responsive"
                             className="rounded-t-[2.5rem] "
                             width={300}
@@ -133,7 +133,7 @@ const Seller = () => {
                     </div>
                     <div className="w-16 h-16 absolute top-[12rem] left-[8rem] border-2 rounded-full border-black">
                         <Image
-                            src="/static/user-1.png"
+                            src="/static/user-4.png"
                             layout="responsive"
                             className="rounded-full"
                             width={50}
@@ -153,7 +153,7 @@ const Seller = () => {
                 <div className="relative flex flex-col bg-white rounded-[2.5rem]">
                     <div className="basis-2">
                         <Image
-                            src="/static/seller-1.png"
+                            src="/static/seller-6.png"
                             layout="responsive"
                             className="rounded-t-[2.5rem] "
                             width={300}

@@ -45,7 +45,7 @@ const Footer = () => {
                                 type="search"
                                 name="q"
                                 className="py-2 text-sm w-full text-gray-700 bg-gray-100 rounded-full pl-4 focus:outline-purple-600 focus:bg-white focus:text-gray-900"
-                                placeholder="Search..."
+                                placeholder="example@gmail.com..."
                                 autoComplete="off"
                             />
                         </div>

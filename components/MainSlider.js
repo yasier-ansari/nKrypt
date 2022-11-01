@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { TiArrowLeftThick, TiArrowRightThick } from 'react-icons/ti';
 import { BsFillBookmarkPlusFill } from 'react-icons/bs';
-import { AiFillHeart } from 'react-icons/ai';
+import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
 import images from '../images';
 
 const MainSlider = () => {
@@ -47,9 +47,9 @@ const MainSlider = () => {
             read: 'lorem ipsum isnt just fummy data, its amount of english a developer needs to become a developer',
         },
     ];
-    console.log(data[0].image.src);
 
     const [idNumber, setIdNumber] = useState(0);
+    const [like, setLike] = useState(false);
     const rightArrow = () => {
         if (idNumber + 1 >= data.length) {
             setIdNumber(0);
@@ -70,6 +70,7 @@ const MainSlider = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'bg-bottom',
     };
+    console.log(like)
 
     return (
         <section className="mx-auto mt-20">
@@ -100,7 +101,13 @@ const MainSlider = () => {
                         >
                             View
                         </a>
-                        <AiFillHeart className="w-10 h-10" />
+                        <div onClick={() => setLike(!like)} >
+                            <AiFillHeart className={` ${!like && 'hidden '}  w-10 h-10 `} />
+                            <AiOutlineHeart className={` ${like && 'hidden'}  w-10 h-10 `} />
+
+                        </div>
+
+
                     </div>
                     <div className="flex justify-between ">
                         <button

@@ -4,6 +4,7 @@ import Hot from '../components/Hot';
 import Hero from '../components/Hero';
 import MainSlider from '../components/MainSlider';
 import Filter from '../components/Filter';
+import Video from "../components/Video";
 
 export default function Home() {
     return (
@@ -16,12 +17,13 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main className="px-32">
+            <main className="px-20">
                 <Hero />
                 <Seller />
                 <Hot />
                 <MainSlider />
-                <Filter />
+                {/* <Filter /> */}
+                <Video />
             </main>
         </div>
     );
